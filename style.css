@@ -15,6 +15,17 @@
     display: flex;
 }
 
+.btn-primary{
+    font-size: 1rem;
+    font-weight: 700;
+    width: fit-content;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #E02C6D;
+}
+
 /* nav style */
 .navbar{
     justify-content: space-between;
@@ -28,11 +39,39 @@
 }
 .navbar li{
     list-style: none;
-    margin-left: 34px;
+    margin-right: 34px;
 }
 .navbar a{
     text-decoration: none;
     color: #3A3A3A;
+}
+
+/* bannar style */
+.bannar{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.bannar-contant{
+    max-width: 580px;
+}
+.bannar-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.bannar-description{
+    font-size: 1rem;
+    font-weight: 600;
+      color: #3A3A3A;
+      margin-bottom: 16px;
+}
+.bannar-img img{
+    width: 100%;
+}
+.bannar-img{
+
+    background-image: url(./images/Circle\ design.svg);
 }
 
 
@@ -48,5 +87,16 @@
     }
     .brand{
         margin-bottom: 50px;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+    }
+
+    /* bannar */
+    .bannar{
+        flex-direction: column;
+    }
+    .bannar-contant{
+        padding: 20px;
     }
 }
