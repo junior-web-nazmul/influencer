@@ -1,0 +1,52 @@
+
+/* font style */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/* share style */
+*{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* nav style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.navbar li{
+    list-style: none;
+    margin-left: 34px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .brand{
+        margin-bottom: 50px;
+    }
+}
